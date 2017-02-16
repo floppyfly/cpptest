@@ -1,0 +1,6 @@
+网址：http://zh.cppreference.com/w/cpp/io/basic_iostream
+
+1、ignore( std::streamsize count = 1, int_type delim = Traits::eof() );
+说明：提取count个字符，并抛弃掉，直到遇到delim字符为止，包括delim字符。
+举例：cin.ignore(10,'\n'); //提取并抛弃字符，直到第10个字符或者遇到'\n'字符后停止。 
+2、
