@@ -1,0 +1,6 @@
+1、ios::rdstate中rd是那个词的缩写？
+答案：rd是read的缩写。rdstate的意思是：读取状态。
+2、如果cin出错后，cin>>value后，value的值是多少？
+答案：如果cin.good()为假，即cin处于错误状态，cin调用任何方法的返回值都为-1,例如：cin.peek()的值为-1,但是，cin处于错误状态时，输出的值为0,也就是说cin>>value后，value的值为0。
+3、关键字decltype由什么单词组合而成？
+答案：Declared Type 组合并缩写而成，表示已经声明的类型。
